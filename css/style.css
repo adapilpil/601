@@ -261,8 +261,6 @@ ul.nav1 {
 }
 
 /*--End: Juliet Styles-- */
-/*--social-icons--*/
-/*--//social-icons--*/
 /*--//banner-text--*/
 .banner-text {
     width: 49%;
@@ -415,7 +413,7 @@ ul.nav1 {
 	position:relative;
 }
 h4.title {
-    color: #68D0AF;
+    color: #7f0000;
     font-size: 3.5em;
 }
 h3.title1 {
@@ -426,7 +424,7 @@ h3.title1 {
     line-height: 1.2em;
 }
 h3.title1 span {
-    color: #68D0AF;
+    color: #7f0000;
 }
 .welcome h5 {
     font-size: 1.8em;
@@ -455,146 +453,7 @@ span.bg-text.bg-right {
     left: auto;
     right: 9%;
 }
-/*--services--*/
-.services {
-    background: #F5DDDD;
-}
-.services-grid {
-    text-align: center;
-}
-.services-right,.about-right {
-    float: right;
-}
-/*-- Effect 1--*/
-.services-grid span {
-    font-size: 1.5em;
-    color: #fff;
-    display: inline-block;
-	-webkit-border-radius: 50%;
-    border-radius: 50%;
-	-moz-border-radius: 50%;
-    text-decoration: none;
-    z-index: 1;
-    padding: 1em;
-}
-.services-grid span:after {
-	pointer-events: none;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-	-moz-border-radius: 50%;
-	content: '';
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-}
-.effect-1 {
-  background: #935A55;
-  -webkit-transition: background 0.5s, color 0.2s;
-  -moz-transition: background 0.5s, color 0.2s;
-  transition: background 0.5s, color 0.2s;
-}
-.effect-1:after {
-    top: -7px;
-    left: -7px;
-    padding: 7px;
-    box-shadow: 0 0 10px 3px #935A55;
-    -webkit-transition: -webkit-transform 0.5s, opacity 0.2s;
-    -webkit-transform: scale(0.8);
-    -moz-transition: -moz-transform 0.5s, opacity 0.2s;
-    -moz-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    transition: transform 0.5s, opacity 0.2s;
-    transform: scale(0.8);
-	-o-transform: scale(0.8);
-	-ms-transform: scale(0.8);
-    opacity: 0;
-}
-.services-grid:hover span:after {
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  -o-transform: scale(1);
-  -ms-transform: scale(1);
-  opacity: 1;
-}
-/*--//Effect 1--*/
-.services-grid h5 {
-    font-size: 1.6em;
-    margin: 0.8em 0 0em;
-    color: #333;
-}
-.services-grid p {
-    font-size: 1em;
-    color: #555;
-    line-height: 1.8em;
-}
-.services-grid.bottom-grids {
-    margin-top: 3em;
-}
-/*--//services--*/
-/*--popular--*/
-.popular-right {
-    padding: 0;
-}
-.popular-grids {
-    padding: 0;
-    overflow: hidden;
-}
-.popular-grids img {
-    width: 100%;
-}
-/*--//popular--*/
-/*--table-book--*/
-.table-book {
-    background: #F5DDDD;
-}
-.book-info {
-    border: 10px double #555;
-    padding: 3em;
-    text-align: center;
-}
-.book-left {
-    float: left;
-    width: 38%;
-    margin: 0 5em;
-}
-.book-right {
-    float: left;
-    width: 42%;
-    position: relative;
-}
-.book-right:before {
-    content: '';
-    background: #333;
-    width: 2px;
-    height: 120%;
-    position: absolute;
-    left: 0;
-	-webkit-transform: rotate(18deg);
-    transform: rotate(18deg);
-	-moz-transform: rotate(18deg);
-	-o-transform: rotate(18deg);
-	-ms-transform: rotate(18deg);
-}
-.book-info  h2,.book-left  h3 {
-    font-size: 3.5em;
-    color: #68D0AF;
-}
-.book-info p {
-    font-size: 1em;
-    color: #555;
-    text-align: right;
-}
-.book-right  h3 {
-    font-size: 3.5em;
-    padding-top: 0.3em;
-    color: #333;
-}
-/*--//table-book--*/
+
 /*--footer--*/
 .footer {
     background: #333;
@@ -669,8 +528,8 @@ ul.social-network li {
 
 
 /* footer social icons */
-.social-network a.icoRss:hover {
-	background-color: #F56505;
+.social-network a.icoYouTube:hover {
+	background-color: #BB0000;
 }
 .social-network a.icoFacebook:hover {
 	background-color:#3B5998;
@@ -687,8 +546,21 @@ ul.social-network li {
 .social-network a.icoLinkedin:hover {
 	background-color:#007bb7;
 }
-.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
-.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+.social-network a.icoInstagram:hover {
+    background-color:  #9b6954;
+}
+.social-network a.icoSkype:hover {
+    background-color: #12A5F4;
+}
+.social-network a.icoEnvelope:hover {
+    background-color: #22263D;
+}
+
+
+
+.social-network a.icoYouTube:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i,
+.social-network a.icoInstagram:hover i, .social-network a.icoSkype:hover i, .social-network a.icoEnvelope:hover i {
 	color:#fff;
 }
 a.socialIcon:hover, .socialHoverClass {
@@ -725,7 +597,7 @@ a.socialIcon:hover, .socialHoverClass {
 	transition: all 0.2s;
 }
 .social-circle i {
-	color: #fff;
+	color: #696969;
 	-webkit-transition: all 0.8s;
 	-moz-transition: all 0.8s;
 	-o-transition: all 0.8s;
