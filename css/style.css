@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 body{
 	margin:0;
 	font-family: 'Lobster', sans-serif;
@@ -32,7 +27,7 @@ ul,label{
 body a:hover{
 	text-decoration:none;
 }
-/*--baner--*/
+/*--banner--*/
 .banner {
    -webkit-background-size:cover;
     background-size:cover;
@@ -631,7 +626,7 @@ a.socialIcon:hover, .socialHoverClass {
 }
 .banner.about-bnr .banner-text {
     width: 46%;
-    padding-top: 2%;
+    padding-top: 4%;
 }
 .banner.about-bnr .bnr-img img {
     width: 15%;
@@ -644,7 +639,7 @@ a.socialIcon:hover, .socialHoverClass {
     margin-left: 6em;
 }
 .banner-text h2 a {
-    color: #68D0AF;
+    color: #720000;
 }
 .banner-text h2 a:hover{
     color: #79302a;
@@ -655,7 +650,7 @@ a.socialIcon:hover, .socialHoverClass {
 }
 .menu-row {
     margin-top: 4em;
-	border: 1px solid #fff;
+	
 }
 .menu-left {
     padding: 0;
@@ -665,10 +660,10 @@ a.socialIcon:hover, .socialHoverClass {
 }
 .menu-right {
     background: #fff;
-    padding: 0 6em;
+    padding: 0 em;
 }
 .menu-info {
-    margin: 3.2em 0;
+    margin: 1.2em 0;
 }
 .menu-list-left {
     float: left;
@@ -681,17 +676,17 @@ a.socialIcon:hover, .socialHoverClass {
 .scrollbar {
     height: 379px;
     background: #fff;
-    overflow-y: scroll;
+    overflow-y:scroll;
 }
 .about-menu h4 {
-    font-size: 2.5em;
-    color: #68D0AF;
+    font-size: 1.5em;
+    color: #720000;
 }
 .about-menu h4  span {
     margin: 0.2em;
 }
 .about-menu h5 {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #333;
     padding-top: 0.2em;
 }
@@ -700,6 +695,10 @@ a.socialIcon:hover, .socialHoverClass {
     color: #555;
     line-height: 1.8em;
     margin-top: 0.2em;
+    
+}
+.col-md-6 menu-left {
+    padding-left: 2em
 }
 /*--//about-page--*/
 /*--Shortcodes--*/
