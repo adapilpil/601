@@ -46,9 +46,9 @@ body a:hover{
 /*--menu--*/
 .top-nav {
     position: absolute;
-    top: 11%;
+    top: 1%;
     right: 6%;
-    padding-bottom: 1em;
+    padding-bottom: 3em;
 	z-index: 999;
 }
 span.menu {
@@ -62,7 +62,7 @@ span.menu img {
 ul.nav1 {
     display: none;
     position: absolute;
-    top: 100%;
+    top: 50%;
     left: -100%;
     background: #333333;
     width: 165px;
@@ -265,6 +265,7 @@ ul.nav1 {
 .banner-text h1 {
     font-family: 'Aladin', cursive;
     font-size: 9em;
+    padding-top: 11%;
 }
 .banner-text h1 a {
     color: #79302a;
