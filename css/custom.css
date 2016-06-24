@@ -12,6 +12,7 @@
 .sb-description h3 {
 	font-size: 20px;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    color: black;
 }
 
 .sb-description h3 a {
@@ -52,7 +53,7 @@
 	text-align: center;
 	position: absolute;
 	bottom: -5px;
-	height: 30px;
+	height: 200px;
 	width: 100%;
 	left: 0;
 	display: none;

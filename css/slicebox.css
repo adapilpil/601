@@ -13,6 +13,7 @@
 	margin: 0;
 	padding: 0;
 	display: none;
+    border-radius: 100px;
 }
 
 .sb-slider li > a {
@@ -24,14 +25,20 @@
 }
 
 .sb-slider img {
-	max-width: 100%;
+	max-width: 900%;
+    mheight: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 200px;
 	display: block;
+    opacity: 0.7
+    
 }
 
 .sb-description {
 	padding: 20px;
-	bottom: 10px;
-	left: 10px;
+	bottom: 30px;
+	left: 7px;
 	right: 10px;
 	z-index: 1000;
 	position: absolute;
@@ -41,7 +48,8 @@
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);	
 	opacity: 0;
-	color: #fff;
+	color: #ffebef;
+    border-radius: 500px;
 
 	-webkit-transition: all 200ms;
 	-moz-transition: all 200ms;
